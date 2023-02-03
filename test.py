@@ -1,3 +1,33 @@
+import numpy as np
+
+def check(arr):
+    ## CHECK ##############################
+    a1 = np.array(test[0])
+    for index, array in enumerate(test):
+           
+      if np.array_equal(a1, array):
+        match index:
+          case 1:
+              print('ANSWER IS - ** B **')
+          case 2:
+              print('ANSWER IS - ** C **')
+          case 3:
+              print('ANSWER IS - ** D **')
+          case 4:
+              print('ANSWER IS - ** E **')
+          case 5:
+              print('ANSWER IS - ** F **')
+          case 6:
+              print('ANSWER IS - ** G **')
+          case 7:
+              print('ANSWER IS - ** H **')
+          case 8:
+              print('ANSWER IS - ** I **')
+          case 9:
+              print('SORTING COMPLETED SUCCESSFULLY!\n')
+        #######################################
+
+
 test = [
   [
     "HELP",
